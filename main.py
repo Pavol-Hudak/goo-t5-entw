@@ -8,7 +8,7 @@ import os
 
 load_dotenv()
 
-os.environ["HF_HOME"] = os.getenv("TRANSFORMERS_CACHE")
+os.environ["HF_HOME"] = os.getenv("HF_HOME")
 token = os.getenv("HF_TOKEN")
 save_dir = os.getenv("SAVE_MODEL_DIR")
 
